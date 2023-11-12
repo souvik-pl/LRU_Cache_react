@@ -1,0 +1,44 @@
+.container {
+    width: 800px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid black;
+}
+
+.tablist {
+    width: 100%;
+    height: 10%;
+    border: 1px solid black;
+    display: flex;
+}
+
+.tab {
+    width: 10%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.tab:hover {
+    background-color: lightblue
+}
+
+.tab_selected {
+    background-color: lightblue;
+    cursor: default;
+}
+
+.page {
+    width: 100%;
+    height: 90%;
+    border: 1px solid black;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
