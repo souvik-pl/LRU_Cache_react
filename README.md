@@ -1,4 +1,5 @@
 # LRU Cache implementation in React
+This repository accompanies the article on [Understanding LRU Cache](https://javascript.plainenglish.io/understanding-lru-cache-b46c48e07e45).
 LRU stands for "Least Recently Used," and an LRU cache is a type of data structure that maintains a limited number of items and automatically removes the least recently used item when the limit is reached. The purpose of an LRU cache is to provide a space-efficient way to store a subset of items that are frequently accessed, with the idea that more recently used items are likely to be used again in the near future.
 
 Here's a brief overview of how an LRU cache typically works:
